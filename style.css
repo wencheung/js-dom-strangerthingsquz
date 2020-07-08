@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Strange";
+  src: url("https://cdn.glitch.com/01b27d37-a07e-4e2e-8caf-659256274937%2FBenguiat%20Bold.ttf?v=1565268317646");
+}
+
+input {
+  background-color:black;
+  color:white;
+  border:0px solid black ;
+  outline:none;
+  border-bottom:1px solid grey;
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+
+body {
+  background-color:black;
+}
+
+img {
+  height:400px;
+}
+
+#quizTitle {
+  text-align:center;
+  color: red;
+  font-family: "Strange";
+  -webkit-text-fill-color:black;
+  -webkit-text-stroke-width:2px;
+  -webkit-text-stroke-color:red;
+  /*text-shadow:1px 1px 1px white;*/
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+#pictureBox {
+  background-color:#222;
+}
+
+#message {
+  color:white;
+  text-align:center;
+  padding:50px;
+  
+}
+
+h4 {
+  color: #555;
+  text-align: center;
+}
